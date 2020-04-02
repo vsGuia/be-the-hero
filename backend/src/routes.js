@@ -7,7 +7,7 @@ const SessionController = require('./controller/SessionController');
 
 const routes = express.Router();
 
-
+//Rota de login
 routes.post('/sessions', SessionController.create);
 
 
