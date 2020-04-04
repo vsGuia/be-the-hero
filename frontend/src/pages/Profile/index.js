@@ -5,6 +5,9 @@ import { FiPower, FiTrash2 } from 'react-icons/fi';
 import api from '../../services/api';
 
 import './styles.css'
+import '../../colors.css'
+import '../../global.css'
+
 
 import logoImg from '../../assets/logo.svg';
 
@@ -56,7 +59,6 @@ export default function Profile() {
                     <FiPower size={18} color="#E02041" />
                 </button>
             </header>
-
             <h1>Casos cadastrados</h1>
             <ul>
                 {incidents.map(incident => (
@@ -71,11 +73,12 @@ export default function Profile() {
                         <p>{Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(incident.value)}</p>
 
                         <button onClick={() => handleDeleteIncident(incident.id)} type="button">
-                            <FiTrash2 size={20} color="#a8a8b3" />
+                            <FiTrash2 size={20} color="#bd1919" />
                         </button>
                     </li>
                 ))}
             </ul>
+            <p className='dev_by'>developed by <span className="font-white">Vinicius Soares</span></p>
         </div>
     );
 }

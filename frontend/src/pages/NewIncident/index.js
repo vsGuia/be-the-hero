@@ -75,6 +75,8 @@ async function handleNewIncident(e){
                     <button className="button" type="submit" >Cadastrar</button>
                 </form>
             </div>
+            <p className='dev_by'>developed by <span className="font-white">Vinicius Soares</span></p>
+
         </div>
     );
 }

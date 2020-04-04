@@ -45,10 +45,6 @@ Extras:
 
 [https://be-the-hero-oficial.netlify.com/](https://be-the-hero-oficial.netlify.com/)
 
-### 📱 App
-
-[Download para Android](https://github.com/ialexanderbrito/be-the-hero/releases/tag/1.0.0)
-
 ### 💻 Projeto
 
 <b>Be the Hero</b> é um projeto que visa ajudar, de maneira <b>financeira</b> uma instituição de caridade, ajudando a mesma se manter. 

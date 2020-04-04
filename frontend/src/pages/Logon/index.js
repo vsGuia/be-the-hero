@@ -24,7 +24,9 @@ export default function Logon(){
 
             history.push('/profile')
         } catch (err) {
-            alert("Falha no login. Tente novamente.")
+            if (id === '') alert("Digite seu Id de acesso");
+            else alert("Falha no login. Tente novamente.");
+
         }
     }
 
@@ -50,6 +52,8 @@ export default function Logon(){
             </section>
 
             <img src={heroesImg} alt="Be The Hero Background" />
+            <p className='dev_by'>developed by <span className="font-white">Vinicius Soares</span></p>
+
         </div>
     );
 }

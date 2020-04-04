@@ -80,3 +80,14 @@ form textarea {
 .back-link:hover {
     opacity: 0.8;
 }
+
+p.dev_by{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-weight: bold;
+    background: #e02041;
+    padding: 5px 5px 0 5px;
+    border-radius: 5px 5px 0px 0px;
+}
+
